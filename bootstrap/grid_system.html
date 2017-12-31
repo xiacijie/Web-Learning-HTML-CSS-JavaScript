@@ -9,6 +9,11 @@
 			background: pink;
 			border: 2px black solid;
 		}
+		.blue{
+			background: blue;
+			border: 2px black solid;
+			height: 60px;
+		}
 	</style>
 </head>
 <body>
@@ -34,8 +39,20 @@
 			<div class="col-lg-1 col-md-2 grid">COL LG 1</div>
 			<div class="col-lg-1 col-md-2 grid">COL LG 1</div>
 			<div class="col-lg-1 col-md-2 grid">COL LG 1</div>
-			
-
+		</div>
+		<!-- nested grids -->
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="row">
+					<div class="col-lg-3 col-md-3  col-sm-6 blue" > HALF</div>
+					<div class="col-lg-3 col-md-3  col-sm-6 blue"> HALF</div>
+					<div class="col-lg-3 col-md-3  col-sm-6 blue"> HALF</div>
+					<div class="col-lg-3 col-md-3  col-sm-6 blue"> HALF</div>
+				</div>
+			</div>
+			<div class="col-lg-6 grid">
+				HAHA
+			</div>
 		</div>
 	</div>
 </body>
